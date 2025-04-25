@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+}
+
+/* Variaveis */
+:root {
+  --cor-primaria: #1A6A64;
+  --cor-secundaria: #6A9672;
+  --cor-terciaria: #5F9793;
+  --cor-lbl: white;
+  --cor-value: #737373;
+  --cor-bg-input: #D9D9D9;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+}
+
+.home-web {
+  background-image: url(../img/bg-home.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.home-web .back_button {
+  display: none;
+}
+
+.home-web .forgot_password {
+  display: none;
+}
+
+.div-1-web {
+  flex: 1;
+}
+
+.div-1-web {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.div-1-web .form-web {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+}
+
+.div-1-web .form-web h1,
+label,
+a,
+p {
+  letter-spacing: 3px;
+  color: white;
+}
+
+.div-1-web .form-web h1,
+a,
+p {
+  font-weight: bold;
+  text-align: center;
+}
+
+.div-1-web .form-web a,
+p {
+  font-size: 15px;
+}
+
+.div-1-web .form-web h1 {
+  font-size: 64px;
+  text-transform: uppercase;
+}
+
+.div-1-web .form-web label {
+  margin-left: 10px;
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+
+/* Estiliza todos os inputs, não mexer */
+
+input {
+  height: 60px;
+  max-width: 400px;
+  border-radius: 8px;
+  border: none;
+  padding-inline: 10px;
+  background-color: var(--cor-bg-input);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input::placeholder {
+  color: var(--cor-value);
+
+}
+
+input:focus {
+  outline: none;
+}
+
+
+.div-1-web .form-web label[for="Senha"] {
+  margin-top: 10px;
+}
+
+.div-1-web .form-web #Senha {
+  margin-bottom: 38px;
+}
+
+.div-1-web .form-web button {
+  height: 54px;
+  width: 400px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: var(--cor-secundaria);
+  transition: 0.5s ease-in;
+}
+
+.div-1-web .form-web button:hover {
+  transition: 0.5s ease-out;
+  transform: scale(1.02);
+}
+
+.div-1-web .form-web p {
+  margin-top: 22px;
+}
+
+
+.div-2-web {
+  flex: 1;
+}
+
+.div-2-web {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
