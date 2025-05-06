@@ -11,13 +11,21 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+   
 }
 
+main {
+    min-width: 320px;
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+}
 .container {
     display: flex;
     gap: 50px;
     background-color: #ffffff;
     padding: 20px;
+    
 }
 
 .perfil-card {
@@ -26,6 +34,7 @@ body {
     border-radius: 8px;
     text-align: center;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
 }
 
 .foto-perfil img {
@@ -143,5 +152,3 @@ button:hover {
 a:visited {
     color: inherit;      
   }
-
-
